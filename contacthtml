@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Lycée</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .contact-item {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+            background-color: #fafafa;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-item h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .contact-item p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .contact-item a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact du Lycée Jean Jaurès</h1>
+        <p>Nous sommes là pour vous aider !</p>
+    </header>
+
+    <div class="container">
+        <h2>Informations de Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Adresse</h3>
+                <p>Lycée Jean Jaurès<br>
+                    45 rue des Écoles<br>
+                    75000 Paris, France</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Téléphone</h3>
+                <p>01 45 67 89 00</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p><a href="mailto:contact@lyceejj.fr">contact@lyceejj.fr</a></p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Site Web</h3>
+                <p><a href="https://www.lyceejj.fr" target="_blank">www.lyceejj.fr</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lycée Jean Jaurès - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>

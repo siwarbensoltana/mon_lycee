@@ -1,0 +1,141 @@
+/* Style général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F79DA9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #4caf50, #81c784);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+	color: #04624F;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+    text-align: LEFT;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    color: #126408;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: BLACK;
+    line-height: 1.6;
+}
+
+/* Section "Nos Valeurs" */
+.valeurs {
+    background: #ffeb3b;
+    color: #333;
+}
+
+.valeurs-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.valeur {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.valeur:hover {
+    transform: translateY(-10px);
+}
+
+.valeur h3 {
+    font-size: 1.6em;
+    color: #4caf50;
+}
+
+.valeur p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Section "Nos Programmes" */
+.programmes {
+    background: linear-gradient(45deg, #ff7043, #ffcc80);
+}
+
+.programme {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.programme h3 {
+    font-size: 1.8em;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.programme p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .valeurs-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .valeur {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .programmes {
+        background: linear-gradient(45deg, #ff7043, #ffcc80);
+    }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Culture Générale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .question p {
+            font-size: 18px;
+        }
+
+        .question input {
+            margin-right: 10px;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Examen de Culture Générale</h1>
+        <p>Répondez aux questions ci-dessous et soumettez vos réponses.</p>
+    </header>
+
+    <div class="container">
+        <form action="#" method="POST">
+            <div class="question">
+                <p>1. Quelle est la capitale de la France ?</p>
+                <label>
+                    <input type="radio" name="q1" value="a"> Paris
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="b"> Lyon
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="c"> Marseille
+                </label><br>
+            </div>
+
+            <div class="question">
+                <p>2. Quelle est la plus grande planète de notre système solaire ?</p>
+                <label>
+                    <input type="radio" name="q2" value="a"> Mars
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="b"> Terre
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="c"> Jupiter
+                </label><br>
+            </div>
+
+            <div class="question">
+                <p>3. Qui a écrit "Les Misérables" ?</p>
+                <label>
+                    <input type="radio" name="q3" value="a"> Emile Zola
+                </label><br>
+                <label>
+                    <input type="radio" name="q3" value="b"> Victor Hugo
+                </label><br>
+                <label>
+                    <input type="radio" name="q3" value="c"> Albert Camus
+                </label><br>
+            </div>
+
+            <button type="submit" class="submit-btn">Soumettre vos réponses</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tous droits réservés - Examen Culture Générale</p>
+    </footer>
+
+</body>
